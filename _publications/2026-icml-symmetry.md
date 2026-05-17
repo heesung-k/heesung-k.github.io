@@ -3,7 +3,7 @@ title: "Gradient Descent with Large Step Size Restores Symmetry in Deep Linear N
 collection: publications
 permalink: /publication/2026-icml-symmetry
 excerpt: 'Large-step gradient descent at the Edge of Stability overrides the winner-takes-all architectural bias of multi-pathway deep linear networks, restoring shared representations across parallel pathways.'
-date: 2026-07-01
+date: 2026-05-01
 venue: 'International Conference on Machine Learning (ICML)'
 paperurl: ''
 citation: 'Hee-Sung Kim, Sungyoon Lee. (2026). &quot;Gradient Descent with Large Step Size Restores Symmetry in Deep Linear Networks with Multi-Pathway.&quot; <i>International Conference on Machine Learning (ICML)</i>.'
