@@ -11,54 +11,64 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Hanyang University**, Seoul, South Korea (Mar 2025 - Present)
+  * M.S./Ph.D. integrated program in Computer Science
+  * Advisor: Prof. [Sungyoon Lee](https://sites.google.com/view/sungyoon-lee/) (LRNING Lab)
 
-Work experience
+* **Hanyang University**, Seoul, South Korea (Mar 2021 - Feb 2025)
+  * B.S. in Computer Science
+
+
+Research Interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Implicit bias of optimization
+* Generalization in deep learning
+* Training dynamics of neural networks
+* Flat-minima methods and Edge of Stability
+* Semi- and self-supervised learning
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
+
+Skills
+======
+* **Programming**: Python, PyTorch, JAX
+* **Research**: Empirical study of neural network training, theoretical analysis of optimization
+* **Languages**: Korean (native), English (proficient)
+
+
+<!-- 
+나중에 추가할 만한 섹션들 (지금은 비워두거나 주석 처리):
+
+Honors and Awards
+======
+* (수상 경력이 생기면 여기에 추가)
+
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+
+Service
 ======
-* Currently signed in to 43 different slack teams
+* (학회 reviewer 경험이 생기면 여기에 추가)
+-->
+
+---
+
+*Last updated: May 2026*
