@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am Hee-Sung Kim, an MS/PhD integrated program student in the [Department of Computer Science](https://www.hanyang.ac.kr/) at [Hanyang University](https://www.hanyang.ac.kr/), advised by Prof. [Sungyoon Lee](https://sites.google.com/view/sungyoon-lee/) at the [LRNING Lab](https://sites.google.com/view/sungyoon-lee/). I received my B.S. in Computer Science from Hanyang University in February 2025.
+Hi, I am Hee-Sung Kim, an MS/PhD integrated program student in the [Department of Computer Science](https://cs.hanyang.ac.kr/) at [Hanyang University](https://www.hanyang.ac.kr/), advised by Prof. [Sungyoon Lee](https://sites.google.com/view/sungyoon-lee/). I received my B.S. in Computer Science from Hanyang University in February 2025.
 
 My research aims to develop improved machine learning methodologies by deepening the understanding of deep learning, with a current emphasis on the latter. I am particularly interested in the implicit bias of optimization, generalization, and training dynamics of neural networks.
 
@@ -21,7 +21,7 @@ News
 
 Research Interests
 ======
-Implicit bias of optimization, generalization, training dynamics of neural networks, flat minima, semi- and self-supervised learning
+Implicit bias of optimization, generalization, training dynamics of neural networks.
 
 
 Education
