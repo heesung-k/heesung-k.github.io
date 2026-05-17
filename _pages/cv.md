@@ -24,9 +24,8 @@ Research Interests
 * Implicit bias of optimization
 * Generalization in deep learning
 * Training dynamics of neural networks
-* Flat-minima methods and Edge of Stability
-* Semi- and self-supervised learning
-
+* Edge of Stability
+* Flat-minima methods 
 
 Publications
 ======
@@ -35,11 +34,11 @@ Publications
   {% endfor %}</ul>
 
 
-Skills
+<!-- Skills
 ======
 * **Programming**: Python, PyTorch, JAX
 * **Research**: Empirical study of neural network training, theoretical analysis of optimization
-* **Languages**: Korean (native), English (proficient)
+* **Languages**: Korean (native), English (proficient) -->
 
 
 <!-- 
