@@ -14,9 +14,20 @@ My research aims to develop improved machine learning methodologies by deepening
 
 News
 ======
-* **May 2026**: Two papers accepted to **ICML 2026**! 🎉
+* **May 2026**: Two papers accepted to **ICML 2026** as first author! 🎉
 * **Mar 2025**: Started my MS/PhD integrated program at Hanyang University, advised by Prof. Sungyoon Lee.
 * **Feb 2025**: Received my B.S. in Computer Science from Hanyang University.
+
+
+Selected Publications
+======
+* **Inconsistency-Aware Minimization: Improving Generalization with Unlabeled Data**  
+  Hee-Sung Kim, Hyeonsung Kim, Sungyoon Lee.  
+  International Conference on Machine Learning (ICML), 2026. [[page]](/publication/2026-icml-iam)
+
+* **Gradient Descent with Large Step Size Restores Symmetry in Deep Linear Networks with Multi-Pathway**  
+  Hee-Sung Kim, Sungyoon Lee.  
+  International Conference on Machine Learning (ICML), 2026. [[page]](/publication/2026-icml-symmetry)
 
 
 Research Interests
