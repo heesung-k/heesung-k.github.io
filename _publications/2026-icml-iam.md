@@ -4,6 +4,7 @@ category: conferences
 title: "Inconsistency-Aware Minimization: Improving Generalization with Unlabeled Data"
 permalink: /publication/2026-icml-iam
 excerpt: 'We recover SAM''s flat-minima bias from unlabeled data alone by regularizing local inconsistency, enabling flat-minima methods for semi- and self-supervised learning.'
+category: ml
 date: 2026-07-01
 venue: 'International Conference on Machine Learning (ICML)'
 paperurl: ''

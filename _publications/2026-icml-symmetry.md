@@ -7,6 +7,7 @@ excerpt: 'Large-step gradient descent at the Edge of Stability overrides the win
 date: 2026-07-01
 venue: 'International Conference on Machine Learning (ICML)'
 paperurl: ''
+category: ml
 ---
 
 **Authors:** **Hee-Sung Kim**, Sungyoon Lee
