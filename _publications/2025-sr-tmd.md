@@ -7,7 +7,6 @@ excerpt: 'Analysis of clinical features and subgroup patterns of temporomandibul
 date: 2025-01-01
 venue: 'Scientific Reports'
 paperurl: 'https://www.nature.com/articles/s41598-025-29749-x'
-citation: 'Yeon-Hee Lee, et al. (2025). &quot;Clinical Features and Subgroup Patterns in Elderly and Super-Elderly TMD Patients.&quot; <i>Scientific Reports</i>.'
 ---
 
 **Authors:** Yeon-Hee Lee, et al. (including **Hee-Sung Kim**)
