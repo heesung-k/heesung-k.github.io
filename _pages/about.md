@@ -22,17 +22,17 @@ News
 Selected Publications
 ======
 * **Inconsistency-Aware Minimization: Improving Generalization with Unlabeled Data**  
-  Hee-Sung Kim, Hyeonsung Kim, Sungyoon Lee.  
+  **Hee-Sung Kim**, Hyeonsung Kim, Sungyoon Lee.  
   International Conference on Machine Learning (ICML), 2026. [[page]](/publication/2026-icml-iam)
 
 * **Gradient Descent with Large Step Size Restores Symmetry in Deep Linear Networks with Multi-Pathway**  
-  Hee-Sung Kim, Sungyoon Lee.  
+  **Hee-Sung Kim**, Sungyoon Lee.  
   International Conference on Machine Learning (ICML), 2026. [[page]](/publication/2026-icml-symmetry)
 
 
 Research Interests
 ======
-Implicit bias of optimization, generalization, training dynamics of neural networks.
+Currently working on understanding how large learning rates and sharpness-aware methods shape what neural networks learn.
 
 
 Education
