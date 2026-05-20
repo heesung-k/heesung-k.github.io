@@ -7,7 +7,6 @@ excerpt: 'Deep learning models (CNN, VGG16-based) for automatic diagnosis of TMJ
 date: 2025-11-11
 venue: 'iScience'
 paperurl: 'https://www.cell.com/iscience/fulltext/S2589-0042(25)02288-6'
-citation: 'Yeon-Hee Lee, Hee-Sung Kim, Seonggwang Jeon, et al. (2025). &quot;Deep Learning-Based Diagnosis of Temporomandibular Joint Osteoarthritis Using Whole-Body Bone Scans.&quot; <i>iScience</i>.'
 ---
 
 **Authors:** Yeon-Hee Lee, **Hee-Sung Kim**, Seonggwang Jeon, Q-Schick Auh, Il Ki Hong, Sunju Choi, Fernando Guastaldi, Hyungsoon Im, Yung-Kyun Noh, Akhilanand Chaurasia
