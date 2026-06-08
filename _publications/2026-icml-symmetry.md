@@ -16,4 +16,4 @@ category: ml
 
 We show that the implicit bias of large-step Gradient Descent toward flat minima overrides the architectural bias of multi-pathway deep linear networks, reversing the "winner-takes-all" symmetry breaking predicted by Gradient Flow. Instead of collapsing onto a single dominant pathway, the network is driven into a re-balancing phase at the [Edge of Stability](https://arxiv.org/abs/2103.00065) that restores shared representations across parallel pathways.
 
-*Paper link coming soon.*
+[arxiv](https://arxiv.org/abs/2606.05219)
