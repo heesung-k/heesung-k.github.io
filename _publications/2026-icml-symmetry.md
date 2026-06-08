@@ -6,7 +6,7 @@ category: conferences
 excerpt: 'Large-step gradient descent at the Edge of Stability overrides the winner-takes-all architectural bias of multi-pathway deep linear networks, restoring shared representations across parallel pathways.'
 date: 2026-07-01
 venue: 'International Conference on Machine Learning (ICML)'
-paperurl: ''
+paperurl: 'https://arxiv.org/abs/2606.05219'
 category: ml
 ---
 
@@ -16,4 +16,4 @@ category: ml
 
 We show that the implicit bias of large-step Gradient Descent toward flat minima overrides the architectural bias of multi-pathway deep linear networks, reversing the "winner-takes-all" symmetry breaking predicted by Gradient Flow. Instead of collapsing onto a single dominant pathway, the network is driven into a re-balancing phase at the [Edge of Stability](https://arxiv.org/abs/2103.00065) that restores shared representations across parallel pathways.
 
-[arxiv](https://arxiv.org/abs/2606.05219)
+[[arxiv]](https://arxiv.org/abs/2606.05219)
