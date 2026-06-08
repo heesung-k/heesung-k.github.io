@@ -6,6 +6,7 @@ permalink: /publication/2025-iscience-tmj
 excerpt: 'Deep learning models (CNN, VGG16-based) for automatic diagnosis of TMJ osteoarthritis from bone scintigraphy, achieving AUC > 0.90 on head-and-neck imaging.'
 date: 2025-11-11
 venue: 'iScience'
+authors: 'Yeon-Hee Lee, **Hee-Sung Kim**, Seonggwang Jeon, Q-Schick Auh, Il Ki Hong, Sunju Choi, Fernando Guastaldi, Hyungsoon Im, Yung-Kyun Noh, Akhilanand Chaurasia'
 paperurl: 'https://www.cell.com/iscience/fulltext/S2589-0042(25)02288-6'
 ---
 

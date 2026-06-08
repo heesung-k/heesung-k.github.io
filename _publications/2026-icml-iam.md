@@ -6,7 +6,9 @@ permalink: /publication/2026-icml-iam
 excerpt: 'We recover SAM''s flat-minima bias from unlabeled data alone by regularizing local inconsistency, enabling flat-minima methods for semi- and self-supervised learning.'
 category: ml
 date: 2026-07-01
-venue: 'International Conference on Machine Learning (ICML)'
+venue: 'ICML'
+authors: '**Hee-Sung Kim**, Hyeonsung Kim, Sungyoon Lee'
+arxivurl: 'https://arxiv.org/abs/2605.31324'
 paperurl: 'https://arxiv.org/abs/2605.31324'
 ---
 
