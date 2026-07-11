@@ -8,7 +8,7 @@ category: ml
 date: 2026-07-07
 venue: 'ICML'
 publication_type: conference
-authors: '**Hee-Sung Kim**, Hyeonsung Kim, Sungyoon Lee'
+authors: '**Hee-Sung Kim**, Hyeonseong Kim, Sungyoon Lee'
 arxivurl: 'https://arxiv.org/abs/2605.31324'
 paperurl: 'https://openreview.net/pdf?id=icRbM5ArwW'
 posterurl: '/files/IAM_Poster.pdf'
