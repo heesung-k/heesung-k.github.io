@@ -41,3 +41,23 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.citation-copy {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--global-link-color);
+  font: inherit;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: var(--global-link-color-hover);
+    text-decoration: underline;
+  }
+}
+
+.citation-copy__status {
+  margin-left: 0.35em;
+  font-size: 0.85em;
+}

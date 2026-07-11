@@ -23,11 +23,11 @@ Selected Publications
 ======
 * **Inconsistency-Aware Minimization: Improving Generalization with Unlabeled Data**  
   **Hee-Sung Kim**, Hyeonsung Kim, Sungyoon Lee.  
-  International Conference on Machine Learning (ICML), 2026. [[page]](/publication/2026-icml-iam) [arxiv](https://arxiv.org/abs/2605.31324)
+  International Conference on Machine Learning (ICML), 2026. [[paper]](https://openreview.net/forum?id=icRbM5ArwW) [arxiv](https://arxiv.org/abs/2605.31324)
 
 * **Gradient Descent with Large Step Size Restores Symmetry in Deep Linear Networks with Multi-Pathway**  
   **Hee-Sung Kim**, Sungyoon Lee.  
-  International Conference on Machine Learning (ICML), 2026. [[page]](/publication/2026-icml-symmetry) [arxiv](https://arxiv.org/abs/2606.05219)
+  International Conference on Machine Learning (ICML), 2026. [[paper]](https://openreview.net/forum?id=CVXqBkLF5y) [arxiv](https://arxiv.org/abs/2606.05219)
 
 
 Research Interests

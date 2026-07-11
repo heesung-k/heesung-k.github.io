@@ -9,7 +9,16 @@ date: 2026-07-01
 venue: 'ICML'
 authors: '**Hee-Sung Kim**, Hyeonsung Kim, Sungyoon Lee'
 arxivurl: 'https://arxiv.org/abs/2605.31324'
-paperurl: 'https://arxiv.org/abs/2605.31324'
+paperurl: 'https://openreview.net/pdf?id=icRbM5ArwW'
+citation: |-
+  @inproceedings{
+  kim2026inconsistencyaware,
+  title={Inconsistency-Aware Minimization: Improving Generalization with Unlabeled Data},
+  author={Hee-Sung Kim and Hyeonseong Kim and Sungyoon Lee},
+  booktitle={Forty-third International Conference on Machine Learning},
+  year={2026},
+  url={https://openreview.net/forum?id=icRbM5ArwW}
+  }
 ---
 
 **Authors:** **Hee-Sung Kim**, Hyeonsung Kim, Sungyoon Lee
@@ -18,4 +27,4 @@ paperurl: 'https://arxiv.org/abs/2605.31324'
 
 We propose **Inconsistency-Aware Minimization (IAM)**, which recovers [SAM](https://arxiv.org/abs/2010.01412)'s flat-minima bias from unlabeled data alone by regularizing local inconsistency — an output-sensitivity measure tied to the largest eigenvalue of the Fisher Information Matrix. IAM matches SAM in supervised learning while uniquely leveraging unlabeled data to improve semi- and self-supervised methods such as [FixMatch](https://arxiv.org/abs/2001.07685) and [SimCLR](https://arxiv.org/abs/2002.05709).
 
-[[arxiv]](https://arxiv.org/abs/2605.31324)
+[[paper]](https://openreview.net/forum?id=icRbM5ArwW) [[arxiv]](https://arxiv.org/abs/2605.31324)

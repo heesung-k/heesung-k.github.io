@@ -11,4 +11,35 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
+<script>
+  document.addEventListener('click', async function (event) {
+    const button = event.target.closest('.citation-copy');
+    if (!button) return;
+
+    const citation = button.dataset.citation;
+    const status = button.parentElement.querySelector('.citation-copy__status');
+
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(citation);
+      } else {
+        const textarea = document.createElement('textarea');
+        textarea.value = citation;
+        textarea.setAttribute('readonly', '');
+        textarea.style.position = 'fixed';
+        textarea.style.opacity = '0';
+        document.body.appendChild(textarea);
+        textarea.select();
+        if (!document.execCommand('copy')) throw new Error('Copy failed');
+        textarea.remove();
+      }
+
+      status.textContent = 'Citation copied!';
+      window.setTimeout(function () { status.textContent = ''; }, 2500);
+    } catch (error) {
+      status.textContent = 'Unable to copy citation.';
+    }
+  });
+</script>
+
 <!-- end custom footer snippets -->
