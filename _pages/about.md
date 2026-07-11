@@ -14,6 +14,7 @@ My research aims to develop improved machine learning methodologies by deepening
 
 News
 ======
+* **Jul 2026**: Will present two papers at **ICML 2026**: [Inconsistency-Aware Minimization](/talks/2026-07-07-icml-iam-poster) and [Gradient Descent with Large Step Size Restores Symmetry in Deep Linear Networks with Multi-Pathway](/talks/2026-07-09-icml-gd-dln-poster).
 * **May 2026**: Two papers accepted to **ICML 2026** as first author! 🎉
 * **Mar 2025**: Started my MS/PhD integrated program at Hanyang University, advised by Prof. Sungyoon Lee.
 * **Feb 2025**: Received my B.S. in Computer Science from Hanyang University.
