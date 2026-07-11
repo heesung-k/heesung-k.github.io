@@ -10,6 +10,7 @@ venue: 'ICML'
 authors: '**Hee-Sung Kim**, Hyeonsung Kim, Sungyoon Lee'
 arxivurl: 'https://arxiv.org/abs/2605.31324'
 paperurl: 'https://openreview.net/pdf?id=icRbM5ArwW'
+posterurl: '/files/IAM_Poster.pdf'
 citation: |-
   @inproceedings{
   kim2026inconsistencyaware,
@@ -27,4 +28,4 @@ citation: |-
 
 We propose **Inconsistency-Aware Minimization (IAM)**, which recovers [SAM](https://arxiv.org/abs/2010.01412)'s flat-minima bias from unlabeled data alone by regularizing local inconsistency — an output-sensitivity measure tied to the largest eigenvalue of the Fisher Information Matrix. IAM matches SAM in supervised learning while uniquely leveraging unlabeled data to improve semi- and self-supervised methods such as [FixMatch](https://arxiv.org/abs/2001.07685) and [SimCLR](https://arxiv.org/abs/2002.05709).
 
-[[paper]](https://openreview.net/forum?id=icRbM5ArwW) [[arxiv]](https://arxiv.org/abs/2605.31324)
+[[paper]](https://openreview.net/forum?id=icRbM5ArwW) [[arxiv]](https://arxiv.org/abs/2605.31324) [[poster]](/files/IAM_Poster.pdf)

@@ -59,16 +59,22 @@
       <p>
         <a href="{{ post.paperurl }}">Download Paper</a> |
         <a href="{{ post.arxivurl }}">arXiv</a>
+        {% if post.posterurl %}
+          | <a href="{{ base_path }}{{ post.posterurl }}" target="_blank" rel="noopener">Poster</a>
+        {% endif %}
         {% if post.citation %}
-          | <button type="button" class="citation-copy" data-citation="{{ post.citation | escape }}">Citation</button>
+          | <button type="button" class="citation-copy" data-citation="{{ post.citation | escape }}">BibTeX</button>
           <span class="citation-copy__status" role="status" aria-live="polite"></span>
         {% endif %}
       </p>
     {% elsif post.collection == 'publications' and post.paperurl %}
       <p>
         <a href="{{ post.paperurl }}">Download Paper</a>
+        {% if post.posterurl %}
+          | <a href="{{ base_path }}{{ post.posterurl }}" target="_blank" rel="noopener">Poster</a>
+        {% endif %}
         {% if post.citation %}
-          | <button type="button" class="citation-copy" data-citation="{{ post.citation | escape }}">Citation</button>
+          | <button type="button" class="citation-copy" data-citation="{{ post.citation | escape }}">BibTeX</button>
           <span class="citation-copy__status" role="status" aria-live="polite"></span>
         {% endif %}
       </p>

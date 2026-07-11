@@ -34,7 +34,7 @@
         textarea.remove();
       }
 
-      status.textContent = 'Citation copied!';
+      status.textContent = 'BibTeX copied!';
       window.setTimeout(function () { status.textContent = ''; }, 2500);
     } catch (error) {
       status.textContent = 'Unable to copy citation.';
