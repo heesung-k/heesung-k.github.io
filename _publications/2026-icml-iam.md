@@ -11,6 +11,7 @@ authors: '**Hee-Sung Kim**, Hyeonsung Kim, Sungyoon Lee'
 arxivurl: 'https://arxiv.org/abs/2605.31324'
 paperurl: 'https://openreview.net/pdf?id=icRbM5ArwW'
 posterurl: '/files/IAM_Poster.pdf'
+slidesurl: '/files/IAM_Slide.pdf'
 citation: |-
   @inproceedings{
   kim2026inconsistencyaware,

@@ -1,11 +1,12 @@
 {% include base_path %}
 {% assign publication = include.publication %}
 
-{% if publication.paperurl or publication.arxivurl or publication.posterurl or publication.citation %}
+{% if publication.paperurl or publication.arxivurl or publication.posterurl or publication.slidesurl or publication.citation %}
   <p class="publication-links">
     {% if publication.paperurl %}<a href="{{ publication.paperurl }}">Download Paper</a>{% endif %}
     {% if publication.arxivurl %}{% if publication.paperurl %} | {% endif %}<a href="{{ publication.arxivurl }}">arXiv</a>{% endif %}
     {% if publication.posterurl %}{% if publication.paperurl or publication.arxivurl %} | {% endif %}<a href="{{ base_path }}{{ publication.posterurl }}" target="_blank" rel="noopener">Poster</a>{% endif %}
-    {% if publication.citation %}{% if publication.paperurl or publication.arxivurl or publication.posterurl %} | {% endif %}<button type="button" class="citation-copy" data-citation="{{ publication.citation | escape }}">BibTeX</button><span class="citation-copy__status" role="status" aria-live="polite"></span>{% endif %}
+    {% if publication.slidesurl %}{% if publication.paperurl or publication.arxivurl or publication.posterurl %} | {% endif %}<a href="{{ base_path }}{{ publication.slidesurl }}" target="_blank" rel="noopener">Slides</a>{% endif %}
+    {% if publication.citation %}{% if publication.paperurl or publication.arxivurl or publication.posterurl or publication.slidesurl %} | {% endif %}<button type="button" class="citation-copy" data-citation="{{ publication.citation | escape }}">BibTeX</button><span class="citation-copy__status" role="status" aria-live="polite"></span>{% endif %}
   </p>
 {% endif %}

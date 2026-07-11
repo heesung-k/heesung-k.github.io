@@ -10,6 +10,7 @@ authors: '**Hee-Sung Kim**, Sungyoon Lee'
 arxivurl: 'https://arxiv.org/abs/2606.05219'
 paperurl: 'https://openreview.net/pdf?id=CVXqBkLF5y'
 posterurl: '/files/GD_DLNwithMP_Poster.pdf'
+slidesurl: '/files/GD_DLNwithMP_Slide.pdf'
 citation: |-
   @inproceedings{
   kim2026gradient,
