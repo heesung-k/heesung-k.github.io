@@ -51,12 +51,16 @@ Honors and Awards
 * (수상 경력이 생기면 여기에 추가)
 
 
-Talks
+-->
+
+Talks/Presentations
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
 
+
+<!--
 
 Teaching
 ======
@@ -72,4 +76,4 @@ Service
 
 ---
 
-*Last updated: May 2026*
+*Last updated: July 2026*
