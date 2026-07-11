@@ -25,4 +25,4 @@ citation: |-
 
 **Venue:** High-dimensional Learning Dynamics (HiLD), ICML 2026 Workshop
 
-We revisit a scalable measure of loss-landscape curvature along the optimizer's update direction. Its one-step descent boundary remains at $\(2/\eta\)$ across optimizers, including momentum and adaptive methods. We also propose finite-difference and KL-divergence estimators that reproduce Edge-of-Stability dynamics using only one or two additional forward passes per step, without Hessian-vector products.
+We revisit a scalable measure of loss-landscape curvature along the optimizer's update direction. Its one-step descent boundary remains at twice the inverse learning rate across optimizers, including momentum and adaptive methods. We also propose finite-difference and KL-divergence estimators that reproduce Edge-of-Stability dynamics using only one or two additional forward passes per step, without Hessian-vector products.
