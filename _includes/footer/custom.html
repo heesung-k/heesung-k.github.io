@@ -12,32 +12,49 @@
 </script>
 
 <script>
-  document.addEventListener('click', async function (event) {
-    const button = event.target.closest('.citation-copy');
-    if (!button) return;
+  async function copyToClipboard(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
 
-    const citation = button.dataset.citation;
-    const status = button.parentElement.querySelector('.citation-copy__status');
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.setAttribute('readonly', '');
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
 
     try {
-      if (navigator.clipboard && window.isSecureContext) {
-        await navigator.clipboard.writeText(citation);
-      } else {
-        const textarea = document.createElement('textarea');
-        textarea.value = citation;
-        textarea.setAttribute('readonly', '');
-        textarea.style.position = 'fixed';
-        textarea.style.opacity = '0';
-        document.body.appendChild(textarea);
-        textarea.select();
-        if (!document.execCommand('copy')) throw new Error('Copy failed');
-        textarea.remove();
-      }
+      if (!document.execCommand('copy')) throw new Error('Copy failed');
+    } finally {
+      textarea.remove();
+    }
+  }
 
-      status.textContent = 'BibTeX copied!';
+  document.addEventListener('click', async function (event) {
+    const copyTarget = event.target.closest('.citation-copy, .email-copy');
+    if (!copyTarget) return;
+
+    const isEmail = copyTarget.classList.contains('email-copy');
+    const text = isEmail ? copyTarget.dataset.email : copyTarget.dataset.citation;
+    const statusSelector = isEmail ? '.email-copy__status' : '.citation-copy__status';
+    const status = copyTarget.parentElement.querySelector(statusSelector);
+
+    if (isEmail) event.preventDefault();
+
+    try {
+      await copyToClipboard(text);
+      status.textContent = isEmail ? 'Email copied!' : 'BibTeX copied!';
       window.setTimeout(function () { status.textContent = ''; }, 2500);
     } catch (error) {
-      status.textContent = 'Unable to copy citation.';
+      if (isEmail) {
+        status.textContent = 'Opening email app...';
+        window.location.href = copyTarget.href;
+      } else {
+        status.textContent = 'Unable to copy BibTeX.';
+      }
     }
   });
 </script>
