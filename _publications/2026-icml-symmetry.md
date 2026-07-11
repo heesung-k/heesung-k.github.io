@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2026-icml-symmetry
 category: conferences 
 excerpt: 'Large-step gradient descent at the Edge of Stability overrides the winner-takes-all architectural bias of multi-pathway deep linear networks, restoring shared representations across parallel pathways.'
-date: 2026-07-01
+date: 2026-07-09
 venue: 'ICML'
 publication_type: conference
 authors: '**Hee-Sung Kim**, Sungyoon Lee'
