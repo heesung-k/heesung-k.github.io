@@ -7,6 +7,7 @@ excerpt: 'We recover SAM''s flat-minima bias from unlabeled data alone by regula
 category: ml
 date: 2026-07-01
 venue: 'ICML'
+publication_type: conference
 authors: '**Hee-Sung Kim**, Hyeonsung Kim, Sungyoon Lee'
 arxivurl: 'https://arxiv.org/abs/2605.31324'
 paperurl: 'https://openreview.net/pdf?id=icRbM5ArwW'

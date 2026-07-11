@@ -6,6 +6,7 @@ permalink: /publication/2025-sr-tmd
 excerpt: 'Analysis of clinical features and subgroup patterns of temporomandibular disorders in elderly populations.'
 date: 2025-01-01
 venue: 'Scientific Reports'
+publication_type: journal
 authors: 'Yeon-Hee Lee, et al. (including **Hee-Sung Kim**)'
 paperurl: 'https://www.nature.com/articles/s41598-025-29749-x'
 ---

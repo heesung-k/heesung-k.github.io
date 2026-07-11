@@ -6,6 +6,7 @@ category: conferences
 excerpt: 'Large-step gradient descent at the Edge of Stability overrides the winner-takes-all architectural bias of multi-pathway deep linear networks, restoring shared representations across parallel pathways.'
 date: 2026-07-01
 venue: 'ICML'
+publication_type: conference
 authors: '**Hee-Sung Kim**, Sungyoon Lee'
 arxivurl: 'https://arxiv.org/abs/2606.05219'
 paperurl: 'https://openreview.net/pdf?id=CVXqBkLF5y'

@@ -29,6 +29,8 @@ Research Interests
 
 Publications
 ======
+*[C] Conference · [J] Journal · [W] Workshop*
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
