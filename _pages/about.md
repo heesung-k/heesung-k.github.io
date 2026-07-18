@@ -27,7 +27,7 @@ Selected Publications
   International Conference on Machine Learning (ICML), 2026. [[paper]](https://openreview.net/forum?id=CVXqBkLF5y) [[arXiv]](https://arxiv.org/abs/2606.05219) [[poster]](/files/GD_DLNwithMP_Poster.pdf) [[slides]](/files/GD_DLNwithMP_Slide.pdf)
 
 * **Inconsistency-Aware Minimization: Improving Generalization with Unlabeled Data**<br>
-  **Hee-Sung Kim**, Hyeonsung Kim, Sungyoon Lee.<br>
+  **Hee-Sung Kim**, Hyeonseong Kim, Sungyoon Lee.<br>
   International Conference on Machine Learning (ICML), 2026. [[paper]](https://openreview.net/forum?id=icRbM5ArwW) [[arXiv]](https://arxiv.org/abs/2605.31324) [[poster]](/files/IAM_Poster.pdf) [[slides]](/files/IAM_Slide.pdf)
 
 Research Interests
