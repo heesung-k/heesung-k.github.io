@@ -46,6 +46,20 @@
   a + a {
     opacity: 0.5;
   }
+
+  + p {
+    margin-top: 0;
+  }
+}
+
+.archive__item {
+  p {
+    margin-bottom: 0.3em;
+
+    + p {
+      margin-top: 0;
+    }
+  }
 }
 
 /* remove border*/
