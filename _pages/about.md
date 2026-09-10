@@ -11,6 +11,8 @@ Hi, I am Hee-Sung Kim, a Ph.D. student in the [Department of Computer Science](h
 
 My research aims to develop improved machine learning methodologies by deepening the understanding of deep learning itself, which is my current focus. I am particularly interested in the implicit bias of optimization, generalization, and training dynamics of neural networks.
 
+I'm always happy to chat about these topics — or anything else. Feel free to [email](mailto:muwonijr@hanyang.ac.kr) me, no formality needed.
+
 
 News
 ======
